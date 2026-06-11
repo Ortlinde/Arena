@@ -41,6 +41,16 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
+
+# AI tool configs (install from marketplace / https://github.com/Ortlinde/my-cursor-rules)
+.claude/
+.cursor/
+AGENTS.md
+CLAUDE.md
+
+# Solution files (new format)
+*.slnx
 
 # Gradle cache directory
 .gradle/
@@ -86,6 +96,9 @@ crashlytics-build.properties
 
 # TestRunner generated files
 InitTestScene*.unity*
+
+# Unity Package Manager auto-generated registry cache
+/ProjectSettings/Packages/
 
 # Addressables default ignores, before user customizations
 /ServerData
